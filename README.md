@@ -1,7 +1,7 @@
 <html>
   <head><h1># llm</h1></head>
 <body>
-<p>This is the sart of my llm projetcs ;currently there are 2 projects</p>
+<p>This is the sart of my llm projetcs ;currently there are 3 projects</p>
 
 <br><br>
 <p>1 ."chatbot_gguf" is a jupyter notebook run locally on my pc based off the codellama-7b-instruct.Q2_K.gguf model .Its supposed to generate python code for a text prompt provided .As shown in the results for it however , it was highly inaccurate due to the version used which brings me to my second project:-</p>
