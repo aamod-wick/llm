@@ -32,5 +32,13 @@ d.It should look something like this : <br>
 e.This is best run for cpu only pcs . I f you have a gpu i recommend using gptq to inference on your personal machine <br><br>
 </p>
 <p>2 ."finetune_llama2" is a colab project aiming to use a free T4 gpu to finetune llama , currently im in the process of finetuning it and have already prepared the dataset under the header of "finetune_llama_dataset" the conext taken is quite small to decrease my idle time ,and the dataset values have been filtered .</p>
+<p>3.Gemma_2b_finetune.ipynb is a colab project aiming to use a free T4 gpu to fine tune googles gemma 2b model and using LoRA and PEFT to quantise the llm to run on the free hardware provided by colab .The data set taken is a famous hugging face dataset "data bricks dolby" .<br><br>
+The model has been trained on the a  modified version of the dataset and the training parameters are shown in this colab notebook along with the entire model code in this colab notebook here https://colab.research.google.com/drive/1nHGjj5adCYu_NYO0afh15IQc5ZjVslph?usp=sharing.<br><br>
+To execute it on your local machine you would need basic packages and the model installed to load it in unless you could do it through hugging face login itself .The hugging face login credentials in the colab code are my own , please remember to change the username and token when you try to use or run the project yourself on your own notebook if you so desire .
+colab link https://colab.research.google.com/drive/1nHGjj5adCYu_NYO0afh15IQc5ZjVslph?usp=sharing<br><br>
+training/loss graph ![image](https://github.com/aamod-wick/llm/assets/130042477/ae9c8524-f99d-48ea-a2e0-79e268fcb56c)
+
+  
+</p>
 </body>
 </html>
