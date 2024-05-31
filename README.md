@@ -23,9 +23,8 @@ c.while defining the model instead of<br>
         max_new_tokens=64 #//the number of tokens you wish to train your model on , more tokens better chance to be accurate for longer prompts<br>
     )<br>
     return model<br>
-d. You can run my model here on the cloud on google colab link : 
   <br>
-e.It should look something like this : <br>
+d.It should look something like this : <br>
   ![image](https://github.com/aamod-wick/llm/assets/130042477/aa1020ee-bb03-4fa0-8f79-c5c112174399)
 
 </p>
