@@ -27,9 +27,10 @@ c.while defining the model instead of<br>
 d.It should look something like this : <br>
   ![image](https://github.com/aamod-wick/llm/assets/130042477/aa1020ee-bb03-4fa0-8f79-c5c112174399)
 
-</p>
-<br>
 
+<br><br>
+e.This is best run for cpu only pcs . I f you have a gpu i recommend using gptq to inference on your personal machine <br><br>
+</p>
 <p>2 ."finetune_llama2" is a colab project aiming to use a free T4 gpu to finetune llama , currently im in the process of finetuning it and have already prepared the dataset under the header of "finetune_llama_dataset" the conext taken is quite small to decrease my idle time ,and the dataset values have been filtered .</p>
 </body>
 </html>
